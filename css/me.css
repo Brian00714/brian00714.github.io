@@ -1,0 +1,233 @@
+body{
+	font-family: 微軟正黑體;
+}
+div.bg{
+position: fixed;
+top:0;
+left: 0;
+bottom:0;
+right:0;
+margin:auto;
+z-index: -1000;
+}
+img.bg{
+opacity: 0.5;
+min-width: 100%;
+min-height: 100%;
+width: 100%;}
+#mid img{
+width: 100%;
+height:500px;
+}
+body{
+margin:0px;
+}
+.content{
+width:1200px;
+margin:50px auto;
+display: flex;
+}
+.L{
+width:35%;
+float:left;
+flex:1;
+margin-left: 50px;
+border-radius:20px;
+}
+.R{
+width: 50%;
+float:right;
+font-size: 20px;
+background-color: #669;
+color:#FFF;
+padding: 20px 50px;
+border-radius:20px;
+}
+.L img{
+width:75%;
+}
+footer{
+background-color: #333;
+height:200px;
+padding-top:100px;
+}
+.L2{
+font-size: 24px;
+width:40%;
+float:left;
+background-color: #669;
+margin-left: 50px;
+padding: 20px 50px;
+border-radius: 20px;
+color:#FFF;
+}
+.R2{
+width:50%;
+float:right;
+background-color: #669;
+margin-left: 50px;
+padding: 10px 50px;
+border-radius: 20px;
+color:#FFF;
+font-size: 18px;
+}
+a:link {color:#FFF;
+text-decoration: none;}
+a:visited {color:#FFF;
+text-decoration: none;}
+#fb{
+	width:15%;
+	margin-left: 10px;
+	margin-top: 5px;
+	vertical-align: middle;
+}
+.L3{
+width:60%;
+float:left;
+background-color: #669;
+margin-left: 50px;
+padding: 20px 50px;
+border-radius: 20px;
+color:#FFF;
+font-size: 18px;
+}
+.R3{
+width:40%;
+float:left;
+background-color: #669;
+margin-left: 50px;
+padding: 20px 50px;
+border-radius: 20px;
+color:#FFF;
+font-size: 22px;
+
+}
+.R div{
+	float: left;
+	width: 40%;
+}
+#RR{
+	width:60%;
+}
+.L4{
+width:100%;
+float:left;
+padding: 20px 0px 10px 50px;
+}
+.MEhover {
+	visibility: hidden;
+	position: relative;
+	top:-350px;
+	font-size: 30px;
+	color: #FFF;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.5s linear;
+	text-align: center;
+
+}
+.imgME {
+	position: relative;
+	float:left;
+	width: 33%;
+}
+.imgME:hover {
+	opacity: .8;
+}
+
+.imgME:hover .MEhover {
+	visibility: visible;
+	opacity: 1;
+}
+.imgME img{
+	width: 100%
+}
+.content1{
+width:1200px;
+margin:0px auto;
+display: flex;
+}
+footer div{
+	text-align: center;
+	color: white;
+	font-size: 36px;
+}
+header {
+	height:55px;
+	background-color: #333;
+}
+#top {
+	width: 1200px;	
+	margin: auto;
+}
+#topL{
+	float: left;
+}
+nav {
+	margin:0px;
+	background-color:#333;
+	float: right;
+}
+nav div {
+	margin: auto;
+}
+nav div a{
+	display: inline-block;
+	text-decoration: none;
+	background-color:#123;
+	padding:16px 30px;
+}
+nav div a:link, nav div a:visited{
+	color: #FFF;
+}
+nav div a:hover{
+	color: #123;
+	background-color:#699;
+}
+.R:hover{
+	background-color:#23345C;
+	color: #FEBA48;  
+}
+.L2:hover{
+	background-color:#23345C;
+	color: #FEBA48;  
+}
+.R2:hover{
+	background-color:#23345C;
+	color: #FEBA48;  
+}
+.R3:hover{
+	background-color:#23345C;
+	color: #FEBA48;  
+}
+.L3:hover{
+	background-color:#23345C;
+	color: #FEBA48;  
+}
+.MEhover2 {
+	visibility: hidden;
+	position: relative;
+	top:-250px;
+	font-size: 30px;
+	color: #FFF;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.5s linear;
+	text-align: center;
+
+}
+.imgME2 {
+	position: relative;
+	float:left;
+}
+.imgME2:hover {
+	opacity: .8;
+}
+
+.imgME2:hover .MEhover2 {
+	visibility: visible;
+	opacity: 1;
+}
+.imgME2:hover img{
+	transform:scale(1.2,1.2);
+}
+
+
